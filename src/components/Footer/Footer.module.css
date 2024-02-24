@@ -1,0 +1,64 @@
+.footer{
+  @apply
+  flex
+  flex-col-reverse
+  md:flex-row
+  justify-between
+  w-full
+  max-w-[1400px]
+  items-start
+  px-2
+  md:items-center
+  h-[150px]
+  my-0
+  mx-auto
+  
+  ;
+}
+
+.logoContainer{
+  @apply
+  flex
+  flex-col
+  pl-[14px]
+  w-full
+  items-start
+  md:w-fit
+  md:max-w-[50%]
+  ;
+}
+
+.logoText{
+  @apply
+  text-[14px]
+  ;
+}
+
+.links{
+  @apply
+  flex
+  flex-col
+  md:flex-row
+  pr-[14px]
+  gap-[14px]
+  items-start
+  px-3
+  py-2
+  md:py-0
+  md:px-0
+  md:items-center
+  justify-evenly
+  ;
+}
+
+.link{
+  @apply
+  text-black
+  text-[17px]
+  font-normal
+  leading-[30px]
+  ;
+}
+
+
+

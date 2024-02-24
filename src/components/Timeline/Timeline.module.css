@@ -1,0 +1,62 @@
+.timeline {
+  @apply relative
+  mt-5
+  mx-auto
+  z-10;
+}
+
+.timeline::before{
+  @apply absolute
+  w-[2px]
+  rounded-[26px]
+  left-[calc(10%+135px)]
+  top-[8%]
+  bottom-0
+  ml-[-3px]
+  h-[calc(88%)]
+  hidden
+  lg:inline
+  ;
+
+  content: "";
+  background-color: black;
+}
+
+
+
+.timelineSection{
+  @apply
+  flex
+  flex-col
+  items-center
+  justify-center
+  h-auto
+  w-full
+  p-5
+  lg:p-[40px]
+  bg-[#fbfcff]
+  ;
+}
+
+.title{
+  @apply
+  text-[40px]
+  leading-[50px]
+  break-words
+  text-[#0f9949]
+  text-center
+  font-bold
+  ;
+  font-family: Avenir Next-Bold,Avenir Next;
+}
+
+.timelineWrapper{
+  @apply
+  flex
+  flex-col
+  w-full
+  lg:w-[80%]
+  pt-10
+  gap-5
+  ;
+}

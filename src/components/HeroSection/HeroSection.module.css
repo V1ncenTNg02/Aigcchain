@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.higlightedTitle {
+  font-family:
+    Avenir Next-Bold,
+    Avenir Next;
+  font-weight: 700;
+  @apply text-[#0f9949]
+  text-[21px]
+  md:text-[30px]
+  lg:text-[51px]
+  w-fit;
+}
+
+.title {
+  font-family:
+    Avenir Next-Bold,
+    Avenir Next;
+  
+  font-weight: 700;
+  @apply
+  w-fit
+  text-[21px]
+  md:text-[30px]
+  lg:text-[51px]
+  ;
+}
+
+.button1 {
+  background: linear-gradient(269deg, #057b36, #00c443);
+  border-radius: 8px 8px 8px 8px;
+  color: #fff;
+  font-family: Inter, SF-Compact;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 70px;
+  opacity: 1;
+  width: 280px;
+  @apply 
+  text-[13px]
+  w-fit
+  h-fit
+  md:w-40
+  md:text-[1.5rem]
+  px-[7px]
+  py-[14px]
+  md:h-auto
+  lg:w-[280px];
+  ;
+}
+
+.button2 {
+  background: transparent;
+  border: 2px solid #03943b;
+  border-radius: 8px 8px 8px 8px;
+  color: #057f37;
+  font-family: Inter, SF-Compact;
+  font-weight: 500;
+  
+  opacity: 1;
+  @apply  
+  text-[13px]
+  w-fit
+  h-fit
+  md:w-40
+  md:text-[1.5rem]
+  px-[7px]
+  py-[14px]
+  md:h-auto
+  lg:w-[280px];
+}
+
+.btnGroup {
+  @apply flex 
+  flex-row
+  gap-[14px];
+}
+
+.heroImage {
+  @apply overflow-hidden 
+  w-1/2
+  absolute 
+  bottom-0
+  lg:bottom-[100px]
+  right-0 
+  h-auto
+  lg:w-[598px] 
+  lg:h-[418px];
+}
+
+.outerContainer {
+  background-color: #f1faf4;
+}
+
+.container {
+  margin:auto;
+  padding-bottom: 160px;
+  padding-left: 100px;
+  padding-top: 160px;
+  max-width:1400px;
+  @apply
+  relative
+  px-[21px]
+  md:pl-[100px]
+
+  ;
+}
+
+.textContainer{
+  @apply
+  w-full
+  ;
+}
+
+.infoSection {
+  @apply z-20 relative
+  w-full
+  md:w-3/4;
+}

@@ -1,0 +1,47 @@
+.featureCard{
+  @apply
+  bg-white
+  border-[1px]
+  border-solid
+  rounded-[27px]
+  lg:rounded-[20px]
+  w-[90%]
+  md:w-[calc(50vw-25px)]
+  lg:w-[280px]
+  transition
+  ease-out
+  duration-300
+  hover:scale-105
+  hover:shadow-2xl
+  ;
+}
+
+.image{
+  @apply
+  w-full
+  h-auto
+  md:h-[calc(50vw-25px)]
+  md:w-[calc(50vw-25px)]
+  lg:h-[280px]
+  lg:w-[280px]
+  ;
+}
+
+.text{
+  @apply
+  flex
+  flex-col
+  items-center
+  justify-center
+  h-[180px]
+  p-[14px]
+  w-full
+  text-[18px]
+  font-[400]
+  md:font-[500]
+  md:w-[calc(50vw-25px)]
+  lg:w-[280px]
+  text-center
+  font-default
+  ;
+}

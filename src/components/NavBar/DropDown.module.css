@@ -1,0 +1,28 @@
+.dropDown{
+  @apply
+  absolute
+  w-full
+  z-10
+  mt-0
+  rounded-2xl
+  bg-white
+  shadow-xl
+  overflow-hidden
+  ;
+}
+
+.link{
+  @apply
+  flex
+  flex-col
+  items-center
+  py-2
+  w-full
+  ;
+}
+
+.link:hover{
+  @apply
+  bg-[#00c443]
+  ;
+}

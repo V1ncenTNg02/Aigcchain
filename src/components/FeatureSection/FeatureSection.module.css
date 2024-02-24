@@ -1,0 +1,60 @@
+.container{
+  @apply
+  w-full
+  flex
+  justify-center
+  overflow-hidden
+  ;
+}
+
+.featureSection{
+  @apply
+  flex
+  flex-col
+  justify-center
+  items-center
+  py-[40px]
+  w-full
+  max-w-[1400px]
+  ;
+}
+
+.title{
+  @apply
+  text-[40px]
+  leading-[50px]
+  break-words
+  text-[#0f9949]
+  font-bold
+  text-center
+  ;
+  font-family: Avenir Next-Bold,Avenir Next;
+}
+
+.description{
+  @apply
+  text-xl
+  break-words
+  font-normal
+  leading-[30px]
+  py-[15px]
+  text-center
+  ;
+  font-family: Inter;
+}
+
+.cardsContainer{
+  @apply
+  flex
+  flex-col
+  w-full
+  md:flex-row
+  md:items-start
+  md:flex-wrap
+  gap-[21px]
+  lg:gap-[24px]
+  items-center
+  justify-center
+  pt-[50px]
+  ;
+}

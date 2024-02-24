@@ -1,0 +1,46 @@
+
+.menu{
+  @apply
+  fixed
+  bottom-0
+  left-0
+  bg-white
+  w-full
+  h-[50vh]
+}
+
+.linksContainer{
+  @apply
+  flex
+  flex-col
+  h-full
+  p-[24px]
+  overflow-auto
+  ;
+  font-family: PingFang SC-Regular,PingFang SC;
+}
+
+.linkWrapper{
+  @apply
+  border-0
+  border-b
+  border-black
+  ;
+}
+
+.link{
+  @apply
+  text-[16px]
+  font-bold
+  p-[7px]
+  ;
+}
+
+.subLink{
+  @apply
+  flex
+  flex-row
+  p-[7px]
+  pl-[14px]
+  ;
+}

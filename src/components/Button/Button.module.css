@@ -1,0 +1,18 @@
+.btn {
+  align-items: center;
+  background: linear-gradient(269deg, #057b36, #00c443);
+  border-radius: 8px 8px 8px 8px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, SF-Compact;
+  font-size: 26px;
+  font-weight: 500;
+  height: 70px;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  opacity: 1;
+  width: 280px;
+  @apply max-w-[280px] w-[1/10];
+}

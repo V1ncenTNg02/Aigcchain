@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.outerContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+}
+
+.innerContainer {
+  @apply flex flex-col w-full items-center;
+}
+
+.title {
+  color: #0f9949;
+  font-family:
+    Avenir Next-Bold,
+    Avenir Next;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.caption {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  @apply
+  font-default;
+}
+
+.infoImage {
+  width: 70%;
+  height: auto;
+  max-width: 100%;
+}
+
+.source {
+  background: #f7f7f7;
+  border-radius: 24px 24px 24px 24px;
+  opacity: 1;
+  padding: 4px 14px;
+  @apply w-2/3 lg:w-fit
+  break-words;
+}
