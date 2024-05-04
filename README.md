@@ -8,6 +8,6 @@ The purpose of this static website is to highlight the features and potential of
 Next.js, TailwindCSS
 
 ## Demo
-![Image1](/public/Image1)
-![Image2](/public/Image2)
-![Image3](/public/Image3)
+![Image1](/public/Image1.png)
+![Image2](/public/Image2.png)
+![Image3](/public/Image3.png)
